@@ -1,7 +1,7 @@
 ﻿<p>
 	SSCap是一个Windows下C++版的Shadowsocks客户端. 相比其它的客户端更稳定更快速,不会出现其它版本中常现的接收数据错误.<br />
 <br />
-2016.03.06 2.0<br />
+2016.03.06 1.9<br />
 1, 修正WIN 10系统下 PAC模式下不能正确代理网站的问题.<br />
 2, 增加结束某个节点的所有连接的功能. ( 切换代理后希望将之前代理的连接全断开)<br />
 3, 主界面中SS节点信息动态更新时加以颜色区分.<br />
@@ -50,8 +50,5 @@ first issue, Key Features:<br />
 1, Support aes-256-cfb/aes-192-cfb/aes-128-cfb,md5,rc-md5,chacha20,salsa20 encryption.<br />
 2, Test shadowsocks node in sscap<br />
 3, Show speed and traffic of every ss node.<br />
-4, support from win xp to win 10 windows os.
-</p>
-<p>
-	<br />
+4, support from win xp to win 10 windows os.<br />
 </p>
