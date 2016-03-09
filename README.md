@@ -1,6 +1,15 @@
 ﻿<p>
 	SSCap是一个Windows下C++版的Shadowsocks客户端. 相比其它的客户端更稳定更快速,不会出现其它版本中常现的接收数据错误.<br />
 <br />
+2016.03.09 2.1<br />
+1, 修正在最新版的libev服务器端下有可能打不开网站的问题.<br />
+2, 增加测试所有节点的功能(主界面右键菜单中).<br />
+3, 修正在系统托盘菜单中切换节点后托盘图标提示的当前节点仍未改变的BUG.<br />
+4, 修正主界面中通过右键菜单禁用一个节点后再启用节点无法启用的BUG.<br />
+5, 修正被禁用的节点仍然可以被使用的问题.<br />
+6, 修正被禁用的节点在系统托盘右键菜单中仍然可以使用的问题.<br />
+7, 修正主界面中的节点被排序后更新状态时会错乱的问题.<br />
+<br />
 2016.03.06 1.9<br />
 1, 修正WIN 10系统下 PAC模式下不能正确代理网站的问题.<br />
 2, 增加结束某个节点的所有连接的功能. ( 切换代理后希望将之前代理的连接全断开)<br />
@@ -50,5 +59,8 @@ first issue, Key Features:<br />
 1, Support aes-256-cfb/aes-192-cfb/aes-128-cfb,md5,rc-md5,chacha20,salsa20 encryption.<br />
 2, Test shadowsocks node in sscap<br />
 3, Show speed and traffic of every ss node.<br />
-4, support from win xp to win 10 windows os.<br />
+4, support from win xp to win 10 windows os.
+</p>
+<p>
+	<br />
 </p>
