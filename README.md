@@ -1,5 +1,9 @@
-﻿<p>
-	SSCap是一个Windows下C++版的Shadowsocks客户端. 相比其它的客户端更稳定更快速,不会出现其它版本中常现的接收数据错误.<br />
+﻿SSCap是一个Windows下C++版的Shadowsocks客户端. 相比其它的客户端更稳定更快速,不会出现其它版本中常现的接收数据错误.<br />
+<br />
+2016.08.08 3.2<br />
+1, 修改默认启用系统代理的逻辑.用户手动禁用系统代理后不再恢复之前保存的系统代理.<br />
+2, 兼容新的SS链接格式.<br />
+3, 其它小BUG修改.<br />
 <br />
 2016.04.21 3.1<br />
 1, 新增支持chacha20-ietf加密<br />
@@ -97,11 +101,7 @@
 2015.11.28 1.2<br />
 /////////////////////////////////////////////////////<br />
 first issue, Key Features:<br />
-1, Support aes-256-cfb/aes-192-cfb/aes-128-cfb,md5,rc-md5,chacha20,salsa20 encryption.<br />
+1, Support aes-256-cfb/aes-192-cfb/aes-128-cfb,md5,rc-md5,chacha20,chacha20-ietf,salsa20 encryption.<br />
 2, Test shadowsocks node in sscap<br />
 3, Show speed and traffic of every ss node.<br />
-4, support from win xp to win 10 windows os.
-</p>
-<p>
-	<br />
-</p>
+4, support from win xp to win 10 windows os.<br />
