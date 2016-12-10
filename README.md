@@ -1,5 +1,12 @@
-﻿<p>
-	SSCap是一个Windows下C++版的Shadowsocks客户端. 相比其它的客户端更稳定更快速,不会出现其它版本中常现的接收数据错误.<br />
+﻿SSCap是一个Windows下C++版的Shadowsocks客户端. 相比其它的客户端更稳定更快速,不会出现其它版本中常现的接收数据错误.<br />
+<br />
+3.5<br />
+1, 将Privoxy封装成DLL, 从而不再需要带着Privoxy进程以及一堆Templates文件.<br />
+2, 增加本地Http代理<br />
+3, 解决CURL请求时提示:"No authentication method was acceptable."的问题.<br />
+4, PAC模式从"黑名单"机制改为"自动跳过所有中国网站"<br />
+5, 节点实时速度统计改进.&nbsp;<br />
+6, 加入DNS解析的缓存机制, 一定程度上提升连接时解析速度.<br />
 <br />
 2016.08.24 3.3<br />
 1, 修复某些情况下无法编辑节点备注的BUG.&nbsp;<br />
@@ -111,8 +118,4 @@ first issue, Key Features:<br />
 1, Support aes-256-cfb/aes-192-cfb/aes-128-cfb,md5,rc-md5,chacha20,chacha20-ietf,salsa20 encryption.<br />
 2, Test shadowsocks node in sscap<br />
 3, Show speed and traffic of every ss node.<br />
-4, support from win xp to win 10 windows os.
-</p>
-<p>
-	<br />
-</p>
+4, support from win xp to win 10 windows os.<br />
