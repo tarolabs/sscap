@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SSCap", "SSCap\SSCap.vcxproj", "{9BC738EB-63DF-4416-936E-E4F0139C47FC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC8602C7-9E76-4064-8B5B-908DD961D7B1} = {CC8602C7-9E76-4064-8B5B-908DD961D7B1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zxing", "zxing\zxing.vcxproj", "{CC8602C7-9E76-4064-8B5B-908DD961D7B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BC738EB-63DF-4416-936E-E4F0139C47FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9BC738EB-63DF-4416-936E-E4F0139C47FC}.Debug|Win32.Build.0 = Debug|Win32
+		{9BC738EB-63DF-4416-936E-E4F0139C47FC}.Debug|x64.ActiveCfg = Debug|Win32
+		{9BC738EB-63DF-4416-936E-E4F0139C47FC}.Release|Win32.ActiveCfg = Release|Win32
+		{9BC738EB-63DF-4416-936E-E4F0139C47FC}.Release|Win32.Build.0 = Release|Win32
+		{9BC738EB-63DF-4416-936E-E4F0139C47FC}.Release|x64.ActiveCfg = Release|Win32
+		{CC8602C7-9E76-4064-8B5B-908DD961D7B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CC8602C7-9E76-4064-8B5B-908DD961D7B1}.Debug|Win32.Build.0 = Debug|Win32
+		{CC8602C7-9E76-4064-8B5B-908DD961D7B1}.Debug|x64.ActiveCfg = Debug|Win32
+		{CC8602C7-9E76-4064-8B5B-908DD961D7B1}.Release|Win32.ActiveCfg = Release|Win32
+		{CC8602C7-9E76-4064-8B5B-908DD961D7B1}.Release|Win32.Build.0 = Release|Win32
+		{CC8602C7-9E76-4064-8B5B-908DD961D7B1}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

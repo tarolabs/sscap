@@ -1,0 +1,670 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sscap\n"
+"POT-Creation-Date: 2015-12-08 10:02+0800\n"
+"PO-Revision-Date: 2015-12-08 10:04+0800\n"
+"Last-Translator: Taro <sockscap64@gmail.com>\n"
+"Language-Team: taro labs\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: gbk\n"
+"X-Poedit-KeywordsList: _;N_\n"
+"X-Poedit-SearchPath-0: Socks\n"
+"X-Poedit-SearchPath-1: SSCap\n"
+
+#: SSCap/AboutDlg.cpp:32 SSCap/SSCapDlg.cpp:348
+msgid "About SSCap"
+msgstr "关于SSCap"
+
+#: SSCap/AboutDlg.cpp:35
+msgid "Version: "
+msgstr "版本:"
+
+#: SSCap/AboutDlg.cpp:36
+msgid "Build Time: "
+msgstr "编译时间:"
+
+#: SSCap/AboutDlg.cpp:37
+msgid "Website: "
+msgstr "网站:"
+
+#: SSCap/AddSSFromJsonDlg.cpp:129
+msgid "Input shadowsocks server with json format please."
+msgstr "请输入json格式的shadowsocks服务器"
+
+#: SSCap/AddSSFromJsonDlg.cpp:141
+msgid ""
+"Json parsed error, please input shadowsocks server with right json format."
+msgstr "Json解析错误,请输入正确的包含shadowsocks服务器的json内容."
+
+#: SSCap/AddSSFromJsonDlg.cpp:156
+msgid "Add new shadowsocks server from json."
+msgstr "从json格式新增shadowsocks服务器"
+
+#: SSCap/AddSSFromJsonDlg.cpp:157
+msgid "Input json format content below:"
+msgstr "请在下面输入json内容"
+
+#: SSCap/AddSSFromJsonDlg.cpp:158 SSCap/AddSSFromLink.cpp:97
+#: SSCap/SystemConfigureDlg.cpp:85
+msgid "OK"
+msgstr "确定"
+
+#: SSCap/AddSSFromJsonDlg.cpp:159
+msgid "Example..."
+msgstr "示例..."
+
+#: SSCap/AddSSFromJsonDlg.cpp:191
+msgid "The example with right json format"
+msgstr "正确json格式示例"
+
+#: SSCap/AddSSFromLink.cpp:60
+msgid "Input shadowsocks server link please."
+msgstr "请输入shadowsocks服务器链接"
+
+#: SSCap/AddSSFromLink.cpp:95
+msgid "Add new shadowsocks server from ss link."
+msgstr "从ss链接新增shadowsocks服务器."
+
+#: SSCap/AddSSFromLink.cpp:96
+msgid "Input some shadowsocks server link below( per ss link per line )"
+msgstr "请在下边输入shadowsocks服务器链接( 每行一个 )"
+
+#: SSCap/Agent.cpp:31
+msgid "Do the best shadowsocks gui client"
+msgstr "做最好用的Shadowsocks客户端"
+
+#: SSCap/CSSClientTesting.cpp:52
+msgid "Testing started."
+msgstr "测试已开始."
+
+#: SSCap/CSSClientTesting.cpp:62
+msgid "Shadowsocks server node invalid."
+msgstr "Shadowsocks服务器节点无效."
+
+#: SSCap/CSSClientTesting.cpp:73
+msgid "Create Encryption error."
+msgstr "创建加密器错误."
+
+#: SSCap/CSSClientTesting.cpp:81
+#, c-format
+msgid "Server IP: %s"
+msgstr "服务器IP: %s"
+
+#: SSCap/CSSClientTesting.cpp:83
+#, c-format
+msgid "Server Port: %d"
+msgstr "服务器端口: %d"
+
+#: SSCap/CSSClientTesting.cpp:85
+#, c-format
+msgid "Server password: %s"
+msgstr "服务器密码: %s"
+
+#: SSCap/CSSClientTesting.cpp:87
+#, c-format
+msgid "Encryption: %s"
+msgstr "加密: %s"
+
+#: SSCap/CSSClientTesting.cpp:105
+#, c-format
+msgid "Speed : %d KB/s"
+msgstr "速度 : %d KB/s"
+
+#: SSCap/CSSClientTesting.cpp:110 SSCap/CSSClientTesting.cpp:114
+#, c-format
+msgid "Latency : %d ms"
+msgstr "延迟 : %d ms"
+
+#: SSCap/CSSClientTesting.cpp:120
+msgid "Testing is done!"
+msgstr "测试完成!"
+
+#: SSCap/CSSClientTesting.cpp:138
+msgid "Sending protocol packet..."
+msgstr "发送协议包..."
+
+#: SSCap/CSSClientTesting.cpp:141
+msgid "Protocol packet Sent failed."
+msgstr "协议包发送失败."
+
+#: SSCap/CSSClientTesting.cpp:144
+msgid "Protocol packet sent."
+msgstr "协议包已发送."
+
+#: SSCap/CSSClientTesting.cpp:148
+#, c-format
+msgid "Sending request packet...(length: %d bytes)"
+msgstr "正在发送请求包...( 长度: %d 字节 )"
+
+#: SSCap/CSSClientTesting.cpp:155
+msgid "Request packet sent failed."
+msgstr "请求包发送失败."
+
+#: SSCap/CSSClientTesting.cpp:158
+msgid "Request packet sent."
+msgstr "请求包已发送."
+
+#: SSCap/CSSClientTesting.cpp:160
+msgid "Waiting response..."
+msgstr "等待反馈..."
+
+#: SSCap/CSSClientTesting.cpp:164
+msgid ""
+"Response received failed! connection reset by peer or timeout, maybe your "
+"encryption is wrong."
+msgstr "反馈接收失败! 连接已被对方中止或者接收超时, 有可能是你的加密方式错了."
+
+#: SSCap/CSSClientTesting.cpp:169
+#, c-format
+msgid "Got correct response (length: %d bytes)."
+msgstr "收到正确的反馈 (长度: %d 字节 )."
+
+#: SSCap/CSSClientTesting.cpp:175
+#, c-format
+msgid "Got %d bytes unrecognized packet, maybe encryption is wrong."
+msgstr "收到 %d 字节不能识别的包, 可能你的加密方式错了."
+
+#: SSCap/CSSClientTesting.cpp:189
+msgid "Testing UDP relay..."
+msgstr "正在测试UDP转发..."
+
+#: SSCap/CSSClientTesting.cpp:197 SSCap/CSSClientTesting.cpp:277
+msgid "Can not resolve SS server address."
+msgstr "无法解析SS服务器地址."
+
+#: SSCap/CSSClientTesting.cpp:219
+msgid "Testing UDP relay...Passed!"
+msgstr "正在测试UDP转发...通过!"
+
+#: SSCap/CSSClientTesting.cpp:226
+msgid "Testing UDP relay...Unpassed!"
+msgstr "正在测试UDP转发...未通过!"
+
+#: SSCap/CSSClientTesting.cpp:240
+msgid "Connecting to SS node..."
+msgstr "连接到SS节点..."
+
+#: SSCap/CSSClientTesting.cpp:257 SSCap/CSSClientTesting.cpp:267
+#: SSCap/CSSClientTesting.cpp:303 SSCap/CSSClientTesting.cpp:324
+msgid "Connecting to SS node error."
+msgstr "连接到SS节时出错."
+
+#: SSCap/CSSClientTesting.cpp:356
+msgid "Connected to SS node."
+msgstr "成功与SS节点建立连接."
+
+#: SSCap/NewSSNodeDlg.cpp:102
+msgid "Add new shadowsocks server"
+msgstr "新增shadowsocks服务器"
+
+#: SSCap/NewSSNodeDlg.cpp:103
+msgid "Server IP:"
+msgstr "服务器IP:"
+
+#: SSCap/NewSSNodeDlg.cpp:104
+msgid "Server port:"
+msgstr "服务器端口:"
+
+#: SSCap/NewSSNodeDlg.cpp:105 SSCap/SystemConfigureDlg.cpp:73
+msgid "Password:"
+msgstr "密码:"
+
+#: SSCap/NewSSNodeDlg.cpp:106
+msgid "Remarks:"
+msgstr "备注:"
+
+#: SSCap/NewSSNodeDlg.cpp:107
+msgid "Enable this node"
+msgstr "启用此节点"
+
+#: SSCap/NewSSNodeDlg.cpp:140
+msgid "Input SS server IP please."
+msgstr "请输入SS服务器IP地址."
+
+#: SSCap/NewSSNodeDlg.cpp:145
+msgid "Port must be in 0-65535."
+msgstr "端口必须是0-65535之间."
+
+#: SSCap/NewSSNodeDlg.cpp:157
+msgid "Input SS server password please."
+msgstr "请输入SS服务器密码."
+
+#: SSCap/SSCap.cpp:73
+msgid ""
+"SSCap is already running. If you want to start multiple instance, copy sscap "
+"to another directory and run it again."
+msgstr ""
+"SSCap已经在运行中. 如果你想运行多个实例, 请将SSCap拷贝到新的目录然后再运行."
+
+#: SSCap/SSCapDlg.cpp:225
+#, c-format
+msgid "Local socks 5 service starting error: %s"
+msgstr "本地Socks 5服务启动错误: %s"
+
+#: SSCap/SSCapDlg.cpp:235
+#, c-format
+msgid "Local socks 5 service port [%d] is in use,change your configure please."
+msgstr "本地Socks 5服务端口 [%d] 已被使用, 请修改你的配置."
+
+#: SSCap/SSCapDlg.cpp:244
+#, c-format
+msgid "Local socks 5 working on port: [%d]"
+msgstr "本地SOCKS 5代理工作在: [%d] 端口"
+
+#: SSCap/SSCapDlg.cpp:249
+msgid "Local socks 5 service is stoped."
+msgstr "本地SOCKS 5代理已停止."
+
+#: SSCap/SSCapDlg.cpp:263
+msgid "Remote shadowsocks server is not available"
+msgstr "远程Shadowsocks服务器无效"
+
+#: SSCap/SSCapDlg.cpp:337
+msgid "Add shadowsocks server."
+msgstr "新增Shadowsocks服务器."
+
+#: SSCap/SSCapDlg.cpp:338
+msgid "Add shadowsocks server from QR Code."
+msgstr "从二维码新增Shadowsocks服务器."
+
+#: SSCap/SSCapDlg.cpp:339
+msgid "Add shadowsocks server from json format."
+msgstr "从Json格式添加Shadowsocks服务器."
+
+#: SSCap/SSCapDlg.cpp:340
+msgid "Add shadowsocks server from ss link."
+msgstr "从SS链接添加Shadowsocks服务器."
+
+#: SSCap/SSCapDlg.cpp:341
+msgid "Activate selected shadowsocks server."
+msgstr "激活选中的Shadowsocks服务器."
+
+#: SSCap/SSCapDlg.cpp:342
+msgid "Edit selection."
+msgstr "修改"
+
+#: SSCap/SSCapDlg.cpp:343
+msgid "Delete selection."
+msgstr "删除"
+
+#: SSCap/SSCapDlg.cpp:344
+msgid "Check selection."
+msgstr "检测选中服务器"
+
+#: SSCap/SSCapDlg.cpp:346 SSCap/SystemConfigureDlg.cpp:67
+msgid "Configuration"
+msgstr "配置"
+
+#: SSCap/SSCapDlg.cpp:347
+msgid "Online Help"
+msgstr "在线帮助"
+
+#: SSCap/SSCapDlg.cpp:349
+msgid "Exit SSCap."
+msgstr "退出SSCap"
+
+#: SSCap/SSCapDlg.cpp:357
+#, c-format
+msgid "SSCap %s - %s"
+msgstr "SSCap %s - %s"
+
+#: SSCap/SSCapDlg.cpp:471
+#, c-format
+msgid "Shadowosocks server nodes: [%d]"
+msgstr "Shadowsocks服务器节点列表: [%d]"
+
+#: SSCap/SSCapDlg.cpp:1287
+msgid "Are you sure to delete this shadowsocks server?"
+msgstr "你确定要删除此Shadowsocks服务器?"
+
+#: SSCap/SSCapDlg.cpp:1440
+#, c-format
+msgid ""
+"SSCap v%s is released.\r\n"
+"Update to new version now?"
+msgstr ""
+"SSCap v%s 已经发布.\r\n"
+"现在就更新到新版本么?"
+
+#: SSCap/SSCapDlg.cpp:1442
+msgid "New Version is released."
+msgstr "新版本已经发布."
+
+#: SSCap/SreenCaptureDlg.cpp:558
+#, c-format
+msgid "·Pixel RGB (%d,%d,%d)\r\n"
+msgstr "·像素色彩 RGB (%d,%d,%d)\n"
+
+#: SSCap/SreenCaptureDlg.cpp:562
+msgid ""
+"·Press and drag your mouse to select\r\n"
+"\r\n"
+" ·Press ESC or right click to exit."
+msgstr ""
+"·按下并拖动你的鼠标进行选择\n"
+"\n"
+" ·按下ESC键或者鼠标右键退出."
+
+#: SSCap/SreenCaptureDlg.cpp:567
+msgid ""
+"·Release your mouse key to confirm selection\r\n"
+"\r\n"
+" ·Press ESC to exit."
+msgstr ""
+"·释放你的鼠标确认选区\n"
+"\n"
+" ·按下ESC键退出."
+
+#: SSCap/SreenCaptureDlg.cpp:572
+msgid ""
+"·Use left key to adjust selection\r\n"
+"\r\n"
+" ·Double click in selection to confirm and exit.\r\n"
+"\r\n"
+" ·right click to reselect."
+msgstr ""
+"·用鼠标左键调整选区\n"
+"\n"
+" ·双击鼠标确认并退出.\n"
+"\n"
+" ·右击鼠标重选."
+
+#: SSCap/SreenCaptureDlg.cpp:607
+msgid "Corner position  "
+msgstr "顶点坐标"
+
+#: SSCap/SreenCaptureDlg.cpp:643
+msgid "Corner position"
+msgstr "顶点坐标"
+
+#: SSCap/SreenCaptureDlg.cpp:652
+msgid "Rectangle size"
+msgstr "矩形大小"
+
+#: SSCap/SreenCaptureDlg.cpp:660
+msgid "Cursor position"
+msgstr "当前坐标"
+
+#: SSCap/SystemConfigureDlg.cpp:68
+msgid "Basic settings"
+msgstr "本基设置"
+
+#: SSCap/SystemConfigureDlg.cpp:69
+msgid "Run at system startup"
+msgstr "开机自启动"
+
+#: SSCap/SystemConfigureDlg.cpp:70
+msgid "Allow connections from other computer"
+msgstr "允许其它计算机连接"
+
+#: SSCap/SystemConfigureDlg.cpp:71
+msgid "Local socks 5 settings ( empty means anonymous )"
+msgstr "本地SOCKS 5代理设置( 空代理匿名 )"
+
+#: SSCap/SystemConfigureDlg.cpp:72
+msgid "Username:"
+msgstr "用户名:"
+
+#: SSCap/SystemConfigureDlg.cpp:74
+msgid "Socks 5 Port:"
+msgstr "SOCKS 5端口:"
+
+#: SSCap/SystemConfigureDlg.cpp:78
+msgid "Enable Server balance"
+msgstr "启用服务器均衡"
+
+#: SSCap/SystemConfigureDlg.cpp:81
+msgid "System proxy(Don't change it if you don't know what's system proxy)"
+msgstr "系统代理( 如果你不知什么是系统代理请别修改 )"
+
+#: SSCap/SystemConfigureDlg.cpp:82
+msgid "Type:"
+msgstr "类型:"
+
+#: SSCap/SystemConfigureDlg.cpp:83
+msgid "PAC Type:"
+msgstr "PAC类型:"
+
+#: SSCap/SystemConfigureDlg.cpp:84
+msgid "Online PAC Url:"
+msgstr "在线PAC地址:"
+
+#: SSCap/SystemConfigureDlg.cpp:86
+msgid "Cancel"
+msgstr "取消"
+
+#: SSCap/SystemConfigureDlg.cpp:88
+msgid "Global mode"
+msgstr "全局模式"
+
+#: SSCap/SystemConfigureDlg.cpp:89
+msgid "PAC mode"
+msgstr "PAC模式"
+
+#: SSCap/SystemConfigureDlg.cpp:93
+msgid "Local PAC script"
+msgstr "本地PAC脚本"
+
+#: SSCap/SystemConfigureDlg.cpp:94
+msgid "Online PAC script"
+msgstr "线上PAC脚本"
+
+#: SSCap/SystemConfigureDlg.cpp:183
+msgid "Specify PAC url please."
+msgstr "请指定PAC地址."
+
+#: SSCap/SystemConfigureDlg.cpp:192
+msgid "Input a valid PAC url please."
+msgstr "请输入一个有效的PAC网址."
+
+#: SSCap/TestingCurrentNodeDlg.cpp:68
+msgid "Testing SS server..."
+msgstr "正在测试SS服务器..."
+
+#: SSCap/UIListCtrl.cpp:45
+msgid "ID"
+msgstr "ID"
+
+#: SSCap/UIListCtrl.cpp:47
+msgid "Server"
+msgstr "服务器"
+
+#: SSCap/UIListCtrl.cpp:49
+msgid "Encryption"
+msgstr "加密方式"
+
+#: SSCap/UIListCtrl.cpp:51
+msgid "Connections"
+msgstr "连接"
+
+#: SSCap/UIListCtrl.cpp:53
+msgid "Latency"
+msgstr "延迟"
+
+#: SSCap/UIListCtrl.cpp:55
+msgid "Speed"
+msgstr "速度"
+
+#: SSCap/UIListCtrl.cpp:57
+msgid "Upload traffic"
+msgstr "上传流量"
+
+#: SSCap/UIListCtrl.cpp:59
+msgid "Download traffic"
+msgstr "下载流量"
+
+#: SSCap/UIListCtrl.cpp:61
+msgid "Failure rate"
+msgstr "错误率"
+
+#: SSCap/UpdateSSFromWebsiteDlg.cpp:61 SSCap/UpdateSSFromWebsiteDlg.cpp:62
+msgid "Sign up"
+msgstr "注册"
+
+#: SSCap/popmenu.cpp:59
+msgid "Contact me..."
+msgstr "联系我..."
+
+#: SSCap/popmenu.cpp:60
+msgid "Feedback..."
+msgstr "反馈..."
+
+#: SSCap/popmenu.cpp:61
+msgid "About SSCap..."
+msgstr "关于SSCap..."
+
+#: SSCap/popmenu.cpp:96 SSCap/popmenu.cpp:99
+msgid "There is No SS server to show"
+msgstr "当前没有任何SS服务器来显示"
+
+#: SSCap/popmenu.cpp:116
+msgid "Enable system proxy"
+msgstr "启用系统代理"
+
+#: SSCap/popmenu.cpp:119
+msgid "Configuration..."
+msgstr "配置..."
+
+#: SSCap/popmenu.cpp:123
+msgid "Help"
+msgstr "帮助"
+
+#: SSCap/popmenu.cpp:130
+msgid "Update SS information"
+msgstr "更新SS信息"
+
+#: SSCap/popmenu.cpp:134
+msgid "Exit"
+msgstr "退出"
+
+#: SSCap/popmenu.cpp:151
+msgid "Check selection through TCP"
+msgstr "通过TCP检测选中"
+
+#: SSCap/popmenu.cpp:152
+msgid "Check selection through UDP"
+msgstr "通过UDP检测选中"
+
+#: SSCap/popmenu.cpp:155
+msgid "Activate selection"
+msgstr "激活选中"
+
+#: SSCap/popmenu.cpp:156
+msgid "Edit selection"
+msgstr "编辑选中"
+
+#: SSCap/popmenu.cpp:157
+msgid "Delete selection"
+msgstr "删除选中"
+
+#: SSCap/popmenu.cpp:186
+msgid "Enable selection"
+msgstr "启用选中"
+
+#: SSCap/popmenu.cpp:186
+msgid "Disable selection"
+msgstr "禁用选中"
+
+#: SSCap/popmenu.cpp:190
+msgid "Add new one..."
+msgstr "新增..."
+
+#: SSCap/popmenu.cpp:191
+msgid "Add new one from QR Code..."
+msgstr "从二维码新增"
+
+#: SSCap/popmenu.cpp:192
+msgid "Add new one from SS link..."
+msgstr "从SS链接新增"
+
+#: SSCap/popmenu.cpp:193
+msgid "Add new one from Json..."
+msgstr "从JSON新增..."
+
+#: SSCap/popmenu.cpp:204
+msgid "Copy to QR Code"
+msgstr "拷贝到二维码"
+
+#: SSCap/popmenu.cpp:205
+msgid "Copy to json"
+msgstr "拷贝到Json"
+
+#: SSCap/popmenu.cpp:206
+msgid "Copy to SS link"
+msgstr "拷贝到SS链接"
+
+#: SSCap/popmenu.cpp:208
+msgid "Copy to"
+msgstr "拷贝到"
+
+#~ msgid "Response received failed!"
+#~ msgstr "从服务器接收反馈信息失败!"
+
+#~ msgid "Local socks 5 service starting error."
+#~ msgstr "本地SOCKS 5启动错误."
+
+#~ msgid "Response received failed..."
+#~ msgstr "反馈接收失败"
+
+#~ msgid "Add new one from QR Code."
+#~ msgstr "从二维码新增..."
+
+#~ msgid "Check selection"
+#~ msgstr "检测选中"
+
+#~ msgid ""
+#~ "\r\n"
+#~ "\r\n"
+#~ "\r\n"
+#~ " ·Pixel RGB (%d,%d,%d)\r\n"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ " ·像素 RGB (%d,%d,%d)\n"
+
+#~ msgid ""
+#~ "\r\n"
+#~ " ·Press and drag your mouse to select\r\n"
+#~ "\r\n"
+#~ " ·Press ESC or right click to exit."
+#~ msgstr ""
+#~ "\n"
+#~ " ·按下并拖动你的鼠标进行选则\n"
+#~ "\n"
+#~ " ·按下ESC键或者鼠标右键退出."
+
+#~ msgid ""
+#~ "\r\n"
+#~ " ·Release your mouse key to confirm selection\r\n"
+#~ "\r\n"
+#~ " ·Press ESC to exit."
+#~ msgstr ""
+#~ "\n"
+#~ " ·松开鼠标以确认选择\n"
+#~ "\n"
+#~ " ·按ESC退出"
+
+#~ msgid ""
+#~ "\r\n"
+#~ " ·Use left key to adjust selection\r\n"
+#~ "\r\n"
+#~ " ·Double click in selection to confirm and exit.\r\n"
+#~ "\r\n"
+#~ " ·right click to reselect."
+#~ msgstr ""
+#~ "\n"
+#~ " ·使用左键调整选区\n"
+#~ "\n"
+#~ " ·在选区双击确认选择并退出.\n"
+#~ "\n"
+#~ " ·右击鼠标重新选择."
+
+#~ msgid "About SocksCap64..."
+#~ msgstr "关于"

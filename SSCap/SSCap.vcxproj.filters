@@ -1,0 +1,1562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="jsonparser">
+      <UniqueIdentifier>{c1c9a93a-eb55-4c08-8f4b-d57178a8043e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsonparser\json">
+      <UniqueIdentifier>{099709df-bc8a-4188-b228-86ba7070fdca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="listctrlex">
+      <UniqueIdentifier>{69f7148d-4b4c-4973-b545-635f35755e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIControl">
+      <UniqueIdentifier>{c216abc6-7642-426e-9f59-981e129fa8f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zxing">
+      <UniqueIdentifier>{da55bca7-2c7c-4458-80f5-0fe9081c68c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SSTesting">
+      <UniqueIdentifier>{47c8e1f0-6618-46f1-8cf3-aee53ab7d132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LibQREncode">
+      <UniqueIdentifier>{d78b9707-77c8-4404-87e6-4a05ecc504a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libprivoxy">
+      <UniqueIdentifier>{2e17bcdf-9eeb-4218-98f6-9b916d20315f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shadowsocks">
+      <UniqueIdentifier>{75e6d9da-6b87-4319-bfb9-05ca5ef304e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cryptopp">
+      <UniqueIdentifier>{8198d3cd-2aad-4ff5-bce9-67898672a09a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\SSCap.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SSCap.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\common\cryptopp562\Readme.txt">
+      <Filter>cryptopp</Filter>
+    </None>
+    <None Include="..\common\cryptopp562\x64dll.asm">
+      <Filter>cryptopp</Filter>
+    </None>
+    <None Include="..\common\cryptopp562\x64masm.asm">
+      <Filter>cryptopp</Filter>
+    </None>
+    <None Include="..\common\cryptopp562\License.txt">
+      <Filter>cryptopp</Filter>
+    </None>
+    <None Include="..\common\json\json_internalmap.inl">
+      <Filter>jsonparser\json</Filter>
+    </None>
+    <None Include="..\common\json\json_valueiterator.inl">
+      <Filter>jsonparser\json</Filter>
+    </None>
+    <None Include="..\common\json\json_internalarray.inl">
+      <Filter>jsonparser\json</Filter>
+    </None>
+    <None Include="res\icon_pro.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TRFFC09.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\new.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\new_hover.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\qrcode.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\qrcode_hover.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\active.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\active_hover.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\batch.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\batch_hover.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\del.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\del_hover.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\edit_hover.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\link.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\link_hover.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\exit.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\exit_hover.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\about1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\about1_hover.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\onlinehelp.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\onlinehelp_hover.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\setting.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\setting_hover.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\check.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\check_hover.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\check.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\check_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\check.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\check_hover.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arrow_m.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\move_r.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\size1_r.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\size2_r.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\size3_r.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\size4_r.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refresh.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\refresh_hover.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\back.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\load3.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SSCap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSCapDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\SocksClient.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\stdheader.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\SSClient.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\SocketBase.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\BaseDef.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\SSManager.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\Listener.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\Encypter.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\pubkey.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\pwdbased.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\queue.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\rabin.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\randpool.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\rc2.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\rc5.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\rc6.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\resource.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\rijndael.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\ripemd.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\rng.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\rsa.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\rw.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\safer.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\salsa.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\seal.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\secblock.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\seckey.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\seed.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\serpent.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\serpentp.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\sha.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\sha3.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\shacal2.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\shark.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\simple.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\skipjack.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\smartptr.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\socketft.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\sosemanuk.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\square.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\stdcpp.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\strciphr.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\tea.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\tiger.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\trdlocal.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\trunhash.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\ttmac.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\twofish.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\validate.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\vmac.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\wait.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\wake.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\whrlpool.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\winpipes.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\words.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\xtr.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\xtrcrypt.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\zdeflate.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\zinflate.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\zlib.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\3way.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\adler32.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\aes.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\algebra.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\algparam.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\arc4.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\argnames.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\asn.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\authenc.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\base32.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\base64.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\basecode.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\bench.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\blowfish.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\blumshub.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\camellia.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\cast.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\cbcmac.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\ccm.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\channels.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\cmac.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\config.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\cpu.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\crc.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\cryptlib.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\default.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\des.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\dh.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\dh2.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\dll.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\dmac.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\dsa.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\eax.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\ec2n.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\eccrypto.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\ecp.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\elgamal.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\emsa2.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\eprecomp.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\esign.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\factory.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\files.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\filters.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\fips140.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\fltrimpl.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\gcm.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\gf2_32.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\gf2n.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\gf256.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\gfpcrypt.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\gost.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\gzip.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\hex.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\hmac.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\hrtimer.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\ida.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\idea.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\integer.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\iterhash.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\lubyrack.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\luc.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\mars.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\md2.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\md4.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\md5.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\mdc.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\misc.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\modarith.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\modes.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\modexppc.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\mqueue.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\mqv.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\nbtheory.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\network.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\nr.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\oaep.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\oids.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\osrng.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\panama.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\pch.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\pkcspad.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\polynomi.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\cryptopp562\pssr.h">
+      <Filter>cryptopp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\EncyptionMgr.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="NewSSNodeDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemConfigureDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\JsonParser.h">
+      <Filter>jsonparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\json\reader.h">
+      <Filter>jsonparser\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\json\value.h">
+      <Filter>jsonparser\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\json\writer.h">
+      <Filter>jsonparser\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\json\autolink.h">
+      <Filter>jsonparser\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\json\config.h">
+      <Filter>jsonparser\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\json\features.h">
+      <Filter>jsonparser\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\json\forwards.h">
+      <Filter>jsonparser\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\json\json.h">
+      <Filter>jsonparser\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\json\json_batchallocator.h">
+      <Filter>jsonparser\json</Filter>
+    </ClInclude>
+    <ClInclude Include="RunConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTipEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridColumnTraitEdit.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridColumnTraitHyperLink.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridColumnTraitImage.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridColumnTraitMultilineEdit.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridColumnTraitText.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridColumnTraitVisitor.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridListCtrlEx.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridListCtrlGroups.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridRowTrait.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridRowTraitText.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridRowTraitVisitor.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridRowTraitXP.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\ViewConfigSection.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridColumnTrait.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridColumnTraitCombo.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlEx\CGridColumnTraitDateTime.h">
+      <Filter>listctrlex</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>UIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>UIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IeControl.h">
+      <Filter>UIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperLink.h">
+      <Filter>UIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayIcon.h">
+      <Filter>UIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="msgdef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BCMenu.h">
+      <Filter>UIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="popmenu.h">
+      <Filter>UIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\SSLoader.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="UIListCtrl.h">
+      <Filter>UIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="SreenCaptureDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTracker.h">
+      <Filter>UIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="AddSSFromLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddSSFromJsonDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SysProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\SSNodeSelector.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="SSListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\privoxy.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericHTTPClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\mask.h">
+      <Filter>LibQREncode</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\mmask.h">
+      <Filter>LibQREncode</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\mqrspec.h">
+      <Filter>LibQREncode</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\qrencode.h">
+      <Filter>LibQREncode</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\qrinput.h">
+      <Filter>LibQREncode</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\qrspec.h">
+      <Filter>LibQREncode</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\rscode.h">
+      <Filter>LibQREncode</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\split.h">
+      <Filter>LibQREncode</Filter>
+    </ClInclude>
+    <ClInclude Include="LibQREncode\bitstream.h">
+      <Filter>LibQREncode</Filter>
+    </ClInclude>
+    <ClInclude Include="dibtoddb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\pac.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="PacEditorDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowQRCodeDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadSelectorDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestingLogRichedit.h">
+      <Filter>SSTesting</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoRichEditCtrl.h">
+      <Filter>SSTesting</Filter>
+    </ClInclude>
+    <ClInclude Include="CSSClientTesting.h">
+      <Filter>SSTesting</Filter>
+    </ClInclude>
+    <ClInclude Include="TestingCurrentNodeDlg.h">
+      <Filter>SSTesting</Filter>
+    </ClInclude>
+    <ClInclude Include="zxing\lodepng.h">
+      <Filter>zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="zxing\QRParser.h">
+      <Filter>zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="zxing\BitmapEx.h">
+      <Filter>zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="zxing\ImageReaderSource.h">
+      <Filter>zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="zxing\jpgd.h">
+      <Filter>zxing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\libprivoxy\libprivoxy.h">
+      <Filter>libprivoxy</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SysWideProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\SpeedAnalytics.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socks\proxynscache.h">
+      <Filter>shadowsocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\json\version.h">
+      <Filter>jsonparser\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\json\allocator.h">
+      <Filter>jsonparser\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\json\assertions.h">
+      <Filter>jsonparser\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\json\json_tool.h">
+      <Filter>jsonparser\json</Filter>
+    </ClInclude>
+    <ClInclude Include="QQWry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="APPConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SSCap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSCapDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socks\SocksClient.cpp">
+      <Filter>shadowsocks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socks\SSClient.cpp">
+      <Filter>shadowsocks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socks\SocketBase.cpp">
+      <Filter>shadowsocks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socks\SSManager.cpp">
+      <Filter>shadowsocks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socks\Listener.cpp">
+      <Filter>shadowsocks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socks\BaseDef.cpp">
+      <Filter>shadowsocks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socks\Encypter.cpp">
+      <Filter>shadowsocks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\pubkey.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\queue.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\rabin.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\randpool.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\rc2.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\rc5.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\rc6.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\rdtables.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\regtest.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\rijndael.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\ripemd.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\rng.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\rsa.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\rw.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\safer.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\salsa.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\seal.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\seed.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\serpent.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\sha.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\sha3.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\shacal2.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\shark.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\sharkbox.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\simple.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\skipjack.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\socketft.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\sosemanuk.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\square.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\squaretb.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\strciphr.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\tea.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\tftables.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\tiger.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\tigertab.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\trdlocal.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\ttmac.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\twofish.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\validat1.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\validat2.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\validat3.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\vmac.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\wait.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\wake.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\whrlpool.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\winpipes.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\xtr.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\xtrcrypt.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\zdeflate.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\zinflate.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\zlib.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\3way.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\adhoc.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\adler32.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\algebra.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\algparam.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\arc4.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\asn.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\authenc.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\base32.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\base64.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\basecode.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\bench.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\bench2.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\bfinit.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\blowfish.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\blumshub.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\camellia.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\cast.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\casts.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\cbcmac.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\ccm.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\channels.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\cmac.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\cpu.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\crc.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\cryptlib.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\cryptlib_bds.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\datatest.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\default.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\des.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\dessp.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\dh.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\dh2.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\dll.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\dsa.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\eax.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\ec2n.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\eccrypto.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\ecp.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\elgamal.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\emsa2.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\eprecomp.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\esign.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\files.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\filters.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\fips140.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\fipsalgt.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\fipstest.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\gcm.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\gf2_32.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\gf2n.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\gf256.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\gfpcrypt.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\gost.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\gzip.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\hex.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\hmac.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\hrtimer.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\ida.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\idea.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\integer.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\iterhash.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\luc.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\mars.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\marss.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\md2.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\md4.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\md5.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\misc.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\modes.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\mqueue.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\mqv.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\nbtheory.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\network.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\oaep.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\osrng.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\panama.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\pch.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\pkcspad.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\polynomi.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\pssr.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socks\EncyptionMgr.cpp">
+      <Filter>shadowsocks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\test.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\cryptopp562\dlltest.cpp">
+      <Filter>cryptopp</Filter>
+    </ClCompile>
+    <ClCompile Include="NewSSNodeDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemConfigureDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\json\json_reader.cpp">
+      <Filter>jsonparser\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\json\json_value.cpp">
+      <Filter>jsonparser\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\json\json_writer.cpp">
+      <Filter>jsonparser\json</Filter>
+    </ClCompile>
+    <ClCompile Include="RunConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTipEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx\CGridColumnTraitHyperLink.cpp">
+      <Filter>listctrlex</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx\CGridColumnTraitImage.cpp">
+      <Filter>listctrlex</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx\CGridColumnTraitMultilineEdit.cpp">
+      <Filter>listctrlex</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx\CGridColumnTraitText.cpp">
+      <Filter>listctrlex</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx\CGridListCtrlEx.cpp">
+      <Filter>listctrlex</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx\CGridListCtrlGroups.cpp">
+      <Filter>listctrlex</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx\CGridRowTraitText.cpp">
+      <Filter>listctrlex</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx\CGridRowTraitXP.cpp">
+      <Filter>listctrlex</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx\ViewConfigSection.cpp">
+      <Filter>listctrlex</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx\CGridColumnTraitCombo.cpp">
+      <Filter>listctrlex</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx\CGridColumnTraitDateTime.cpp">
+      <Filter>listctrlex</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlEx\CGridColumnTraitEdit.cpp">
+      <Filter>listctrlex</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>UIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>UIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IeControl.cpp">
+      <Filter>UIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperLink.cpp">
+      <Filter>UIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayIcon.CPP">
+      <Filter>UIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="BCMenu.cpp">
+      <Filter>UIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="popmenu.cpp">
+      <Filter>UIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socks\SSLoader.cpp">
+      <Filter>shadowsocks</Filter>
+    </ClCompile>
+    <ClCompile Include="UIListCtrl.cpp">
+      <Filter>UIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="SreenCaptureDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTracker.cpp">
+      <Filter>UIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="AddSSFromLink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddSSFromJsonDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SysProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socks\SSNodeSelector.cpp">
+      <Filter>shadowsocks</Filter>
+    </ClCompile>
+    <ClCompile Include="SSListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socks\privoxy.cpp">
+      <Filter>shadowsocks</Filter>
+    </ClCompile>
+    <ClCompile Include="version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericHTTPClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibQREncode\mmask.c">
+      <Filter>LibQREncode</Filter>
+    </ClCompile>
+    <ClCompile Include="LibQREncode\mqrspec.c">
+      <Filter>LibQREncode</Filter>
+    </ClCompile>
+    <ClCompile Include="LibQREncode\qrencode.c">
+      <Filter>LibQREncode</Filter>
+    </ClCompile>
+    <ClCompile Include="LibQREncode\qrinput.c">
+      <Filter>LibQREncode</Filter>
+    </ClCompile>
+    <ClCompile Include="LibQREncode\qrspec.c">
+      <Filter>LibQREncode</Filter>
+    </ClCompile>
+    <ClCompile Include="LibQREncode\rscode.c">
+      <Filter>LibQREncode</Filter>
+    </ClCompile>
+    <ClCompile Include="LibQREncode\split.c">
+      <Filter>LibQREncode</Filter>
+    </ClCompile>
+    <ClCompile Include="LibQREncode\bitstream.c">
+      <Filter>LibQREncode</Filter>
+    </ClCompile>
+    <ClCompile Include="LibQREncode\mask.c">
+      <Filter>LibQREncode</Filter>
+    </ClCompile>
+    <ClCompile Include="dibtoddb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socks\pac.cpp">
+      <Filter>shadowsocks</Filter>
+    </ClCompile>
+    <ClCompile Include="PacEditorDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowQRCodeDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadSelectorDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoRichEditCtrl.cpp">
+      <Filter>SSTesting</Filter>
+    </ClCompile>
+    <ClCompile Include="CSSClientTesting.cpp">
+      <Filter>SSTesting</Filter>
+    </ClCompile>
+    <ClCompile Include="TestingCurrentNodeDlg.cpp">
+      <Filter>SSTesting</Filter>
+    </ClCompile>
+    <ClCompile Include="TestingLogRichedit.cpp">
+      <Filter>SSTesting</Filter>
+    </ClCompile>
+    <ClCompile Include="zxing\lodepng.cpp">
+      <Filter>zxing</Filter>
+    </ClCompile>
+    <ClCompile Include="zxing\QRParser.cpp">
+      <Filter>zxing</Filter>
+    </ClCompile>
+    <ClCompile Include="zxing\BitmapEx.cpp">
+      <Filter>zxing</Filter>
+    </ClCompile>
+    <ClCompile Include="zxing\ImageReaderSource.cpp">
+      <Filter>zxing</Filter>
+    </ClCompile>
+    <ClCompile Include="zxing\jpgd.cpp">
+      <Filter>zxing</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SysWideProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socks\SpeedAnalytics.cpp">
+      <Filter>shadowsocks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socks\proxynscache.cpp">
+      <Filter>shadowsocks</Filter>
+    </ClCompile>
+    <ClCompile Include="QQWry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="APPConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SSCap.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
