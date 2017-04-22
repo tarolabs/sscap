@@ -487,14 +487,6 @@ void CSSNodeInfo::UpdateLatency( unsigned int Latency /** ms */)
 
 	this->Latency = Latency;
 }
-// void CSSNodeInfo::UpdateSpeed(  unsigned int Speed /* bytes per sec */)
-// {
-// 	CMutexParser p(&mutexNode);
-// 
-// 	if( Speed <= 0 ) return;
-// 
-// 	this->Speed = Speed;
-// }
 void CSSNodeInfo::UpdateUpload_traffic(  unsigned int Upload_traffic/* bytes */ )
 {
 	CMutexParser p(&mutexNode);

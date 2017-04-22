@@ -115,7 +115,6 @@ public:
 	/** @brief 更新节点统计信息
 	*/
 	void UpdateLatency( unsigned int Latency /** ms */);
-	//void UpdateSpeed( unsigned int Speed /* bytes per sec */ );
 	void UpdateUpload_traffic(unsigned int Upload_traffic /* bytes */);
 	void UpdateDownload_traffic(unsigned int Download_traffic /* bytes */);
 	void UpdateConnectedTimes( unsigned int ConnectedTimes /* 每次增加就调用*/);

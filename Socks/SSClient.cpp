@@ -25,11 +25,6 @@ CSSCLient::CSSCLient( SOCKET s ,const char *username /* proxy user */, const cha
 {
 	pNodeInfo = NULL;
 	pCryptor = NULL;
-// 	nSentKB = 0;
-// 	nRecvKB = 0;
-// 	nSentSeconds = 0;
-// 	nRecvSeconds = 0;
-	//nUpdateTimes = 0;
 	bIsCipher = TRUE;
 	bUserBreaking = FALSE;
 }
@@ -70,10 +65,6 @@ BOOL CSSCLient::Start()
 	pNodeInfo->UpdateConnections( 1 );
 	BOOL bRet = __super::Start();
 
-	//nSentSeconds = nSentSeconds > MIN_CHECK_SPEED_TIME ? nSentSeconds : MIN_CHECK_SPEED_TIME;
-	//int speed = (int)(nSentKB / nSentSeconds);
-
-	//pNodeInfo->UpdateSpeed( speed );
 	pNodeInfo->UpdateConnections( 2 );
 
 	return bRet;
@@ -322,16 +313,6 @@ int CSSCLient::SSSend( SOCKET s, char *buffer, int length  ,int timeout )
 	// 成功, 则统计数据
 	if( ret > 0 && IsRemoteSocket( s ))
 	{
-// 		DWORD end = GetTickCount();
-// 		double interval = (double)(((double)end - (double)start) / (double)1000);
-// 		interval = interval > MIN_CHECK_SPEED_TIME ? interval : MIN_CHECK_SPEED_TIME;
-// 
-// 		nSentKB += (double )((double)ret / (double)1024);
-// 		nSentSeconds += interval;
-// 
-// 		int speed = (int)(nSentKB / nSentSeconds);
-
-		//pNodeInfo->UpdateSpeed( speed );
 		pNodeInfo->PushData( ret );
 		pNodeInfo->UpdateUpload_traffic( ret );
 	}
@@ -396,16 +377,6 @@ int CSSCLient::SSSendTo( SOCKET s, char *buffer, int length  ,int timeout )
 	// 统计数据
 	if( ret > 0 && IsRemoteSocket( s ))
 	{
-// 		DWORD end = GetTickCount();
-// 		double interval = (double)(((double)end - (double)start) / (double)1000);
-// 		interval = interval > MIN_CHECK_SPEED_TIME ? interval : MIN_CHECK_SPEED_TIME;
-// 
-// 		nSentKB += (double )((double)ret / (double)1024);
-// 		nSentSeconds += interval;
-// 
-// 		int speed = (int)(nSentKB / nSentSeconds);
-// 
-// 		pNodeInfo->UpdateSpeed( speed );
 		pNodeInfo->PushData( ret );
 		pNodeInfo->UpdateUpload_traffic( ret );
 	}
@@ -468,16 +439,6 @@ int CSSCLient::SSRecv( SOCKET s,  char *buffer, int length  ,int timeout )
 	// 统计数据
 	if( ret > 0 && IsRemoteSocket( s ) )
 	{
-// 		DWORD end = GetTickCount();
-// 		double interval = (double)(((double)end - (double)start) / (double)1000);
-// 		interval = interval > MIN_CHECK_SPEED_TIME ? interval : MIN_CHECK_SPEED_TIME;
-// 
-// 		nSentKB += (double )((double)ret / (double)1024);
-// 		nSentSeconds += interval;
-// 
-// 		int speed = (int)(nSentKB / nSentSeconds);
-// 
-// 		pNodeInfo->UpdateSpeed( speed );
 		pNodeInfo->PushData( ret );
 		pNodeInfo->UpdateDownload_traffic( ret );
 	}
@@ -549,16 +510,6 @@ int CSSCLient::SSRecvFrom( SOCKET s,  char *buffer, int length  ,int timeout )
 	// 统计数据
 	if( ret > 0 && IsRemoteSocket( s ))
 	{
-// 		DWORD end = GetTickCount();
-// 		double interval = (double)(((double)end - (double)start) / (double)1000);
-// 		interval = interval > MIN_CHECK_SPEED_TIME ? interval : MIN_CHECK_SPEED_TIME;
-// 
-// 		nSentKB += (double )((double)ret / (double)1024);
-// 		nSentSeconds += interval;
-// 
-// 		int speed = (int)(nSentKB / nSentSeconds);
-// 
-// 		pNodeInfo->UpdateSpeed( speed );
 		pNodeInfo->PushData( ret );
 		pNodeInfo->UpdateDownload_traffic( ret );
 	}
@@ -1054,13 +1005,6 @@ BOOL CSSCLient::TCPMainLoop()
 				//ret = SSRecv( s,pRecvBuf, 100, 10 );
 				if( ret > 0 )
 				{
-					//char ttt[2000] = {0};
-					//char ttt1[2000] = {0};
-					//int out_t;
-					//int out_t1;
-					//pCryptor->Encrypt( pRecvBuf,ret,ttt,out_t);
-					//pCryptor->Decrypt(ttt,out_t,ttt1,out_t1 );
-
 					SOCKET PeerSocket;
 
 					// 如果收到的是远程SS服务器发来的数据. 那么就转给SOCKS CLIENT
