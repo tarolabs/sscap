@@ -1,6 +1,8 @@
 #include "stdheader.h"
 #include "Encypter.h"
 #include "EncyptionMgr.h"
+#include "Utils.h"
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #undef THIS_FILE
@@ -36,22 +38,24 @@ CEncryptionMgr::~CEncryptionMgr()
 
 CCryptor *CEncryptionMgr::Create( string method, string key )
 {
+	string low_method = LowerStringA( method );
+
 	// aes cfb不管128/192/256的iv都是16字节
-	if( method == AES_256_CFB )
+	if( low_method == AES_256_CFB )
 		return new CAESCfbCryptor(key, 256 );
-	else if( method == AES_192_CFB )
+	else if( low_method == AES_192_CFB )
 		return new CAESCfbCryptor(key, 192 );
-	else if( method == AES_128_CFB )
+	else if( low_method == AES_128_CFB )
 		return new CAESCfbCryptor(key, 128 );
-	else if( method == RC4_MD5 )
+	else if( low_method == RC4_MD5 )
 		return new CRC4Cryptor( key, true );
-	else if( method == RC4 )
+	else if( low_method == RC4 )
 		return new CRC4Cryptor( key, false );
-	else if( method == SALSA20 )
+	else if( low_method == SALSA20 )
 		return new CSalsa20Criptor( key );
-	else if( method == CHACHA20 && !bChaCha20Disabled )
+	else if( low_method == CHACHA20 && !bChaCha20Disabled )
 		return new CChaCha20Criptor( key );
-	else if( method == CHACHA20_IETF_ENC && !bChaCha20Disabled )
+	else if( low_method == CHACHA20_IETF_ENC && !bChaCha20Disabled )
 		return new CChaCha20IetfCriptor( key );
 
 	return NULL;

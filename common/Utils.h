@@ -111,3 +111,7 @@ char * strdup_printf(const char* fmt,...);
 * b. SetHotKey时，也需要调用相关的转换函数
 */
 WORD HKF2SDK(WORD mod);
+
+
+/** @brief 将string转为小写 ansi*/
+std::string LowerStringA(const std::string &str );
