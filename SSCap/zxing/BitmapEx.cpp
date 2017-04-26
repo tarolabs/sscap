@@ -1407,8 +1407,8 @@ void CBitmapEx::_RotateBilinear(long degrees, _PIXEL bgColor)
 	{
 		// Calculate rotating params
 		float _angle = ((float)-degrees/180.0f) * _PI;
-		long _width = (long)(abs((float)m_bih.biWidth*cos(_angle)) + abs((float)m_bih.biHeight*sin(_angle)) + 0.5f);
-		long _height = (long)(abs((float)m_bih.biWidth*sin(_angle)) + abs((float)m_bih.biHeight*cos(_angle)) + 0.5f);
+		long _width = (long)(abs((float)(m_bih.biWidth*cos(_angle))) + abs((float)(m_bih.biHeight*sin(_angle))) + 0.5f);
+		long _height = (long)(abs((float)(m_bih.biWidth*sin(_angle))) + abs((float)(m_bih.biHeight*cos(_angle))) + 0.5f);
 		long _pitch = m_iBpp * _width;
 		while ((_pitch & 3) != 0)
 			_pitch++;
