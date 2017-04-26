@@ -1,3 +1,6 @@
+Dependent:<br/>
+LibPrivoxy, https://github.com/tarolabs/LibPrivoxy<br/>
+<br/>
 SSCap is a shadosocks client written in C++, MFC<br/>
 <br/>
 Features<br/>
