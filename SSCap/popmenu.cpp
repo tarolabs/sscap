@@ -96,10 +96,11 @@ BCMenu *SystemProxy_CreateMenu()
 	return menu;
 }
 
-// 创建系统栏弹出菜单 
-BCMenu *TrayIcon_CreateMenu()
+BCMenu *TrayIcon_CreateProxyListMenu()
 {
 	BCMenu *menu = CreateDefaultMenu();
+	if( !menu ) return NULL;
+
 	UINT nFlag = 0;
 
 	CSSConfigInfo *pCfg = GetConfigInfo();
@@ -145,9 +146,23 @@ BCMenu *TrayIcon_CreateMenu()
 	else 
 		_AppendMenu( menu, 0, ID_TOOLBAR_DUMMY  , _("There is No SS server to show") ,NULL, 0 );
 
-	nFlag = 0;
+	return menu;
+}
 
-	menu->AppendMenu( MF_SEPARATOR );
+// 创建系统栏弹出菜单 
+BCMenu *TrayIcon_CreateMenu()
+{
+	BCMenu *menu = CreateDefaultMenu();
+	UINT nFlag = 0;
+	CSSConfigInfo *pCfg = GetConfigInfo();
+
+	if( !menu ) return NULL;
+
+	BCMenu *pProxyListSubMenu = TrayIcon_CreateProxyListMenu();
+	if( pProxyListSubMenu )
+	{
+		_AppendSubMenu( menu, 0, pProxyListSubMenu, 0, _("Proxy list") ,NULL, 0);
+	}
 
 	// 只有privoxy启动了, 才可以使用系统代理的相关功能.
 	if( pCfg->isPrivoxyRunned )
